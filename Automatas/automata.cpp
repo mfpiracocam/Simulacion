@@ -86,7 +86,7 @@ double LatticeGas::GetSigma2(void)
   //Calculo xprom
   for(xprom=0, i=0; i<Lx; i++)
   {
-    for(k=0;k<2; k++);
+    for(k=0;k<2; k++)
     xprom+=i*n[i][k];
   }
   xprom/=N;
